@@ -20,7 +20,7 @@ export async function GET(request: Request) {
     });
 
     const header = ['ID', 'Title', 'Status', 'Priority', 'Created At', 'Assignee'].join(',');
-    const rows = tickets.map(t => [
+    const rows = tickets.map((t: any) => [
         t.externalId,
         `"${t.title.replace(/"/g, '""')}"`,
         t.status,
