@@ -1,0 +1,9 @@
+{
+  "message": "\nInvalid `prisma.ticket.create()` invocation:\n\n\n",
+  "code": "ECONNREFUSED",
+  "meta": {
+    "modelName": "Ticket"
+  },
+  "name": "PrismaClientKnownRequestError",
+  "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.ticket.create()` invocation:\n\n\n\n    at zr.handleRequestError (F:\\Transperfect\\webapp\\node_modules\\@prisma\\client\\runtime\\client.js:65:8286)\n    at zr.handleAndLogRequestError (F:\\Transperfect\\webapp\\node_modules\\@prisma\\client\\runtime\\client.js:65:7581)\n    at zr.request (F:\\Transperfect\\webapp\\node_modules\\@prisma\\client\\runtime\\client.js:65:7288)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async a (F:\\Transperfect\\webapp\\node_modules\\@prisma\\client\\runtime\\client.js:75:6862)\n    at async file:///F:/Transperfect/webapp/test_prisma.mjs:11:13"
+}
